@@ -1,0 +1,60 @@
+import pygame
+import math
+import time
+
+# Initialize Pygame
+pygame.init()
+
+# Screen dimensions
+WIDTH, HEIGHT = 800, 600
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Pulsating Neon Heart")
+
+# Colors
+BLACK = (0, 0, 0)
+NEON_PINK = (255, 20, 147)
+
+# Clock for controlling frame rate
+clock = pygame.time.Clock()
+
+# Function to draw a heart shape
+def draw_heart(surface, x, y, size, color):
+    points = []
+    for t in range(0, 360, 1):
+        t_rad = math.radians(t)
+        # Parametric heart equation
+        a = size * (16 * math.sin(t_rad)**3)
+        b = -size * (13 * math.cos(t_rad) - 5*math.cos(2*t_rad) - 2*math.cos(3*t_rad) - math.cos(4*t_rad))
+        points.append((x + a, y + b))
+    pygame.draw.polygon(surface, color, points)
+
+# Animation variables
+t = 0
+
+running = True
+while running:
+    screen.fill(BLACK)
+    
+    # Pulsate effect
+    pulsate = 1 + 0.1 * math.sin(t)
+    heart_size = 10 * pulsate
+    
+    # Flickering/dimming effect
+    flicker = 150 + 105 * math.sin(t * 2 + math.sin(t * 0.5))
+    heart_color = (flicker, 20, 147)  # RGB pink with variable brightness
+    
+    draw_heart(screen, WIDTH//2, HEIGHT//2, heart_size, heart_color)
+    
+    pygame.display.flip()
+    
+    # Increment time
+    t += 0.05
+    
+    # Event handling
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+    
+    clock.tick(60)  # 60 FPS
+
+pygame.quit()
