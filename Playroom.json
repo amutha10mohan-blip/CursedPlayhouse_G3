@@ -564,6 +564,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "vill 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vill 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 41.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -615,12 +631,6 @@
               "name": "NewSprite"
             },
             {
-              "name": "scratches2"
-            },
-            {
-              "name": "blood"
-            },
-            {
               "name": "window"
             },
             {
@@ -630,10 +640,7 @@
               "name": "eye2"
             },
             {
-              "name": "piano"
-            },
-            {
-              "name": "Hand_stain"
+              "name": "eye"
             }
           ]
         },
@@ -1218,9 +1225,26 @@
           "opacity": 0,
           "persistentUuid": "97c72165-3c31-4d60-a97a-900bc5afd3f5",
           "width": 1286,
-          "x": 0,
+          "x": -2,
           "y": 0,
           "zOrder": 999,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 233,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villain",
+          "persistentUuid": "4fbcad46-b452-4b2d-8a47-5e38e67043ec",
+          "width": 219,
+          "x": 997,
+          "y": 228,
+          "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2099,6 +2123,12 @@
               "name": "CorrectItems",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "WrongItems",
+              "persistentUuid": "c7d687cd-c3dc-4628-bda9-45cb0f3cb2dd",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -2589,7 +2619,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Villain",
+          "name": "villain",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2606,7 +2636,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "vill 1.png",
+                      "image": "vill 41.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2622,20 +2652,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21,
+                            "x": 27,
                             "y": 27
                           },
                           {
-                            "x": 72,
+                            "x": 67,
                             "y": 27
                           },
                           {
-                            "x": 72,
-                            "y": 104
+                            "x": 67,
+                            "y": 107
                           },
                           {
-                            "x": 21,
-                            "y": 104
+                            "x": 27,
+                            "y": 107
                           }
                         ]
                       ]
@@ -2714,7 +2744,7 @@
             "objectName": "Darkness"
           },
           {
-            "objectName": "Villain"
+            "objectName": "villain"
           }
         ]
       },
@@ -2767,7 +2797,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Villain"
+                "villain"
               ]
             },
             {
@@ -2820,6 +2850,26 @@
                     "Step",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Wrong Items",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -2881,6 +2931,26 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Wrong Items",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -2920,7 +2990,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "eye",
+                    "piano",
                     "",
                     "",
                     ""
@@ -2934,6 +3004,26 @@
                     "Step",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Wrong Items",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -2995,6 +3085,26 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Wrong Items",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -3038,59 +3148,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "BuiltinCommonInstructions::Not"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "NewSprite2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "ball",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "eye",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "chair",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
                   ]
                 },
                 {
@@ -3235,7 +3292,7 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "Villain",
+                        "villain",
                         "Villain"
                       ]
                     },
@@ -3244,7 +3301,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "10"
+                        "2"
                       ]
                     },
                     {
@@ -3323,7 +3380,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "4.5"
+                "5"
               ]
             },
             {
