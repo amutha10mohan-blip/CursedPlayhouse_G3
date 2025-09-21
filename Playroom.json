@@ -3167,16 +3167,6 @@
                     "+",
                     "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Step",
-                    "=",
-                    "0"
-                  ]
                 }
               ],
               "events": [
@@ -3353,16 +3343,6 @@
               },
               "parameters": [
                 "Solved",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "WrongAttempts",
                 "=",
                 "0"
               ]
