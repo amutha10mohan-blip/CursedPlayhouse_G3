@@ -580,6 +580,38 @@
         "name": "vill 41.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "dialog box.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialog box.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cat 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cat 23.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -611,7 +643,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000014,
+        "zoomFactor": 0.529035740215685,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1226,7 +1258,7 @@
           "persistentUuid": "97c72165-3c31-4d60-a97a-900bc5afd3f5",
           "width": 1286,
           "x": -2,
-          "y": 0,
+          "y": 4,
           "zOrder": 999,
           "numberProperties": [],
           "stringProperties": [],
@@ -1245,6 +1277,73 @@
           "x": 997,
           "y": 228,
           "zOrder": 1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DialogBox",
+          "persistentUuid": "f8d2206d-87e6-4e64-b97e-0e3310afb45c",
+          "width": 661,
+          "x": 323,
+          "y": 401,
+          "zOrder": 1001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DialogText",
+          "persistentUuid": "f7d3c063-7a07-410e-bce1-7becab8de0aa",
+          "width": 0,
+          "x": 338,
+          "y": 417,
+          "zOrder": 1002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 196,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lumi",
+          "persistentUuid": "25fcbc01-48bb-4bde-900b-8ecb4708c6ee",
+          "width": 156,
+          "x": 894,
+          "y": 185,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 19,
+          "customSize": true,
+          "depth": 1,
+          "height": 137,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cat",
+          "persistentUuid": "f7019be4-d828-4602-bf95-a5c6fa4450de",
+          "width": 137,
+          "x": 99,
+          "y": 298,
+          "zOrder": 1004,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2675,6 +2774,229 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DialogBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dialog box.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 740,
+                            "y": 0
+                          },
+                          {
+                            "x": 740,
+                            "y": 361
+                          },
+                          {
+                            "x": 0,
+                            "y": 361
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DialogText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lumi",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "chwe lumi 21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 5
+                          },
+                          {
+                            "x": 51,
+                            "y": 5
+                          },
+                          {
+                            "x": 51,
+                            "y": 90
+                          },
+                          {
+                            "x": 17,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "cat",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cat 23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 60
+                          },
+                          {
+                            "x": 50,
+                            "y": 60
+                          },
+                          {
+                            "x": 50,
+                            "y": 88
+                          },
+                          {
+                            "x": 15,
+                            "y": 88
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2745,6 +3067,18 @@
           },
           {
             "objectName": "villain"
+          },
+          {
+            "objectName": "DialogBox"
+          },
+          {
+            "objectName": "DialogText"
+          },
+          {
+            "objectName": "Lumi"
+          },
+          {
+            "objectName": "cat"
           }
         ]
       },
@@ -2802,6 +3136,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "cat"
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -2809,6 +3151,74 @@
                 "Opacity",
                 "=",
                 "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Hear my words, for I will guide you to your next task.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"A riddle you must solve to unlock the next note.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"You are on route to your goal. But do not make a mistake, for the shadows are watching you.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                " \"I am in 'bee' but not in 'ant' ,I am also at the end of 'note'. Find me to begin\"\n"
               ]
             }
           ]
@@ -3556,6 +3966,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
