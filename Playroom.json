@@ -620,6 +620,30 @@
         "name": "pixel2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "pixel3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel (1)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -651,7 +675,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.5653158055126322,
         "windowMask": false
       },
       "objectsGroups": [
@@ -868,8 +892,8 @@
           "name": "ball",
           "persistentUuid": "7eccedc2-0531-457a-9d5b-ca6cc9c1b62f",
           "width": 67,
-          "x": 183,
-          "y": 237,
+          "x": 82,
+          "y": 458,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -885,8 +909,8 @@
           "name": "NewSprite",
           "persistentUuid": "e199c6ee-263b-4a6b-91bb-7146c4f54fc9",
           "width": 49,
-          "x": 1067,
-          "y": 502,
+          "x": 1064,
+          "y": 511,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -902,8 +926,8 @@
           "name": "NewSprite2",
           "persistentUuid": "33ee54dc-5fe1-4de5-b87c-fac3c093ffd8",
           "width": 50,
-          "x": 1007,
-          "y": 505,
+          "x": 1010,
+          "y": 510,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -987,8 +1011,8 @@
           "name": "web",
           "persistentUuid": "cf022986-fb60-4a78-af4e-bb52ccac3f35",
           "width": 106,
-          "x": 647,
-          "y": 59,
+          "x": 649,
+          "y": 55,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -1072,8 +1096,8 @@
           "name": "teddybear",
           "persistentUuid": "cdcafde8-b7c8-49f9-ad24-7e2bd10798b3",
           "width": 279,
-          "x": 563,
-          "y": 22,
+          "x": 559,
+          "y": 18,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1123,8 +1147,8 @@
           "name": "Pool_of_blood",
           "persistentUuid": "4c66b0b2-b77d-4fd5-b86c-5575c826af18",
           "width": 367,
-          "x": 70,
-          "y": 197,
+          "x": 65,
+          "y": 193,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -1140,8 +1164,8 @@
           "name": "scratches2",
           "persistentUuid": "bdbb7176-b985-4e6e-ab77-d7b8fda151bf",
           "width": 406,
-          "x": -28,
-          "y": -59,
+          "x": -27,
+          "y": -53,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1225,8 +1249,8 @@
           "name": "chair",
           "persistentUuid": "c7807c85-b24d-4577-8f6b-7da8d8eee989",
           "width": 297,
-          "x": 935,
-          "y": 27,
+          "x": 925,
+          "y": 30,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -1265,8 +1289,8 @@
           "opacity": 0,
           "persistentUuid": "97c72165-3c31-4d60-a97a-900bc5afd3f5",
           "width": 1286,
-          "x": -4,
-          "y": 0,
+          "x": -2,
+          "y": 6,
           "zOrder": 999,
           "numberProperties": [],
           "stringProperties": [],
@@ -1335,6 +1359,176 @@
           "x": 614,
           "y": 406,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 359,
+          "customSize": true,
+          "depth": 1,
+          "height": 201,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tent",
+          "persistentUuid": "13bb8361-b004-417a-8150-6c8b4e396878",
+          "width": 265,
+          "x": 71,
+          "y": 58,
+          "zOrder": 1006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "",
+          "name": "web2",
+          "persistentUuid": "87319317-b164-4835-92b1-b0ee821311f8",
+          "width": 60,
+          "x": 90,
+          "y": 112,
+          "zOrder": 1007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "web",
+          "persistentUuid": "ec51bc7a-2dbc-4be7-b539-9c1499706216",
+          "width": 106,
+          "x": 107,
+          "y": 204,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 307,
+          "customSize": true,
+          "depth": 1,
+          "height": 114,
+          "keepRatio": true,
+          "layer": "",
+          "name": "web",
+          "persistentUuid": "63921720-18ce-40a1-b8a7-276522326a73",
+          "width": 191,
+          "x": 1020,
+          "y": 405,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "",
+          "name": "web2",
+          "persistentUuid": "3facc3b1-22c1-4911-998a-0ee4ce408b8c",
+          "width": 60,
+          "x": 90,
+          "y": 476,
+          "zOrder": 1007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "",
+          "name": "web2",
+          "persistentUuid": "fc52259b-e579-40df-9b04-9227bfb9fa3a",
+          "width": 60,
+          "x": 69,
+          "y": 478,
+          "zOrder": 1007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 83,
+          "keepRatio": true,
+          "layer": "",
+          "name": "web",
+          "persistentUuid": "a5eae2a9-9582-41df-b58d-0b8ff15e6bee",
+          "width": 119,
+          "x": 1117,
+          "y": 590,
+          "zOrder": 1008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 201,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hand_stain",
+          "persistentUuid": "fc7f1feb-a64f-4b77-a35a-8806adaddff4",
+          "width": 60,
+          "x": 329,
+          "y": 524,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 191,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hand_stain",
+          "persistentUuid": "5ae53aa6-35f1-4c2e-b2b1-10972d3000e2",
+          "width": 60,
+          "x": 57,
+          "y": 571,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 341,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pool_of_blood",
+          "persistentUuid": "67c2b6a1-88ab-4634-9af3-bc25b348d9fa",
+          "width": 144,
+          "x": 852,
+          "y": 561,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2768,8 +2962,8 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
+          "bold": true,
+          "italic": true,
           "name": "DialogText",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -2780,17 +2974,17 @@
           "string": "Text",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
-            "italic": false,
+            "italic": true,
             "outlineColor": "255;255;255",
             "outlineThickness": 2,
             "shadowAngle": 90,
@@ -2804,7 +2998,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -2988,6 +3182,126 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tent",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pixel3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 320,
+                            "y": 16
+                          },
+                          {
+                            "x": 320,
+                            "y": 408
+                          },
+                          {
+                            "x": 24,
+                            "y": 408
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "mat",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pixel__1_-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 24
+                          },
+                          {
+                            "x": 674,
+                            "y": 24
+                          },
+                          {
+                            "x": 674,
+                            "y": 356
+                          },
+                          {
+                            "x": 24,
+                            "y": 356
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3070,6 +3384,12 @@
           },
           {
             "objectName": "DialogBox"
+          },
+          {
+            "objectName": "tent"
+          },
+          {
+            "objectName": "mat"
           }
         ]
       },
@@ -3127,14 +3447,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "cat"
-              ]
-            },
-            {
-              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -3160,7 +3472,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "5"
               ]
             },
             {
@@ -3179,7 +3491,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "5"
               ]
             },
             {
@@ -3190,7 +3502,7 @@
                 "DialogText",
                 "Text",
                 "=",
-                "\"But do make a mistake, for the shadows are watching you.\""
+                "\"But do not make a mistake, for the shadows are watching you.\""
               ]
             },
             {
@@ -3198,7 +3510,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "5"
               ]
             },
             {
@@ -3309,7 +3621,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "6"
                   ]
                 },
                 {
@@ -3771,7 +4083,7 @@
                         "Darkness",
                         "Opacity",
                         "=",
-                        "150"
+                        "100"
                       ]
                     },
                     {
@@ -3844,17 +4156,6 @@
                     },
                     {
                       "type": {
-                        "value": "OpacityCapability::OpacityBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Darkness",
-                        "Opacity",
-                        "=",
-                        "255"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "PlaySoundCanal"
                       },
                       "parameters": [
@@ -3864,6 +4165,25 @@
                         "",
                         "100",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Darkness",
+                        "Opacity",
+                        "=",
+                        "255"
                       ]
                     }
                   ]
