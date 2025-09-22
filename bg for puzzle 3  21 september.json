@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer-pixel",
     "version": "1.0.0",
-    "name": "bg for puzzle 3  final - Copy ",
+    "name": "bg for puzzle 3  final - Copy",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -1377,7 +1377,7 @@
           "value": 0
         },
         {
-          "name": "DollX",
+          "name": "Dollx",
           "type": "number",
           "value": 0
         },
@@ -5193,41 +5193,6 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DollX",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DollY",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -5698,32 +5663,31 @@
               },
               "parameters": [
                 "doll",
-                "sofa2",
+                "wrongPlaces",
                 "",
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
-                "DollX",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DollY",
-                "=",
-                "1"
+                "",
+                "mixkit-gasping-zombie-960.mp3",
+                "3",
+                "",
+                "",
+                ""
               ]
             }
           ]
