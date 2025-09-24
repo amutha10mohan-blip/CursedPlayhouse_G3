@@ -2802,6 +2802,150 @@
         "name": "..\\Tiles\\tile_0044.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../Fruits/Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Fruits\\Apple.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple17",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2839,7 +2983,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8704430869844035,
+        "zoomFactor": 0.5120253452849447,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3995,8 +4139,8 @@
           "name": "apple0",
           "persistentUuid": "9702629b-8f9b-4d4e-a7a5-aaa1927deb6e",
           "width": 0,
-          "x": 10,
-          "y": 106,
+          "x": 102,
+          "y": 72,
           "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
@@ -4161,6 +4305,23 @@
           "x": 146,
           "y": 8,
           "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "apple_icon",
+          "persistentUuid": "e875b234-b11f-4528-8371-79f6ab297920",
+          "width": 142,
+          "x": -9,
+          "y": 59,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9570,7 +9731,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "apple=0",
+          "string": "x0",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -9593,7 +9754,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "apple=0",
+            "text": "x0",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11447,6 +11608,660 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "apple_icon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 0,
+              "LoopDuration": 6,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": true,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "..\\Fruits\\Apple",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Fruits\\Apple17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 7
+                          },
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11561,6 +12376,9 @@
           },
           {
             "objectName": "life3"
+          },
+          {
+            "objectName": "apple_icon"
           },
           {
             "objectName": "ladder3"
@@ -12305,7 +13123,7 @@
                 "apple0",
                 "Text",
                 "=",
-                "\"apple=\"+applevariable"
+                "\"x\"+applevariable"
               ]
             },
             {
@@ -12939,7 +13757,7 @@
               },
               "parameters": [
                 "player",
-                "pig",
+                "enemies",
                 "",
                 "",
                 ""
