@@ -2983,7 +2983,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5120253452849447,
+        "zoomFactor": 1.1349189332521512,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3098,22 +3098,6 @@
           "x": 747,
           "y": 305,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "go_right",
-          "persistentUuid": "1b4a46b7-12fa-4ba3-b032-e64e084d252f",
-          "width": 0,
-          "x": 381,
-          "y": 393,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4262,14 +4246,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 30,
+          "height": 34,
           "keepRatio": true,
           "layer": "ui",
           "name": "life1",
           "persistentUuid": "dd200e94-1437-4916-b249-775aef1bf0d3",
-          "width": 33,
-          "x": 41,
-          "y": 32,
+          "width": 38,
+          "x": 39,
+          "y": 31,
           "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
@@ -4279,14 +4263,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 47,
+          "height": 52,
           "keepRatio": true,
           "layer": "ui",
           "name": "life2",
           "persistentUuid": "ca05d195-49a5-41f7-acda-6eaad64b8c12",
-          "width": 53,
-          "x": 86,
-          "y": 21,
+          "width": 58,
+          "x": 85,
+          "y": 19,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -4303,7 +4287,7 @@
           "persistentUuid": "a5ac6c40-fa70-46a2-b397-4400cb092273",
           "width": 71,
           "x": 146,
-          "y": 8,
+          "y": 7,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -4322,6 +4306,22 @@
           "x": -9,
           "y": 59,
           "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "special_go_right",
+          "persistentUuid": "a73faa4d-4d80-4c9b-bb0a-638599c8352a",
+          "width": 0,
+          "x": 389,
+          "y": 392,
+          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6218,7 +6218,24 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 3,
+              "LoopDuration": 1,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 1.57,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -11305,7 +11322,24 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 3,
+              "LoopDuration": 1,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 1.57,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -11461,7 +11495,24 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 4,
+              "LoopDuration": 1,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 1.57,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -12262,6 +12313,17 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "special_go_right",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -12292,6 +12354,9 @@
           },
           {
             "objectName": "go_right"
+          },
+          {
+            "objectName": "special_go_right"
           },
           {
             "objectName": "mapping"
@@ -12779,7 +12844,7 @@
               },
               "parameters": [
                 "pig",
-                "go_right",
+                "special_go_right",
                 "",
                 "",
                 ""
@@ -13309,95 +13374,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "player",
-                "pig",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "pig",
-                "\"pigdeath\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateJumpKey"
-              },
-              "parameters": [
-                "player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::SetCanJump"
-              },
-              "parameters": [
-                "player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "pig",
-                "Animation",
-                "=",
-                "\"death\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "pig",
-                "PlatformerObject",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsFalling"
-                  },
-                  "parameters": [
-                    "player",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -13772,7 +13748,7 @@
               "parameters": [
                 "player",
                 "Flash",
-                "2",
+                "1",
                 ""
               ]
             }
@@ -13810,7 +13786,131 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "pig",
+                "",
+                "",
+                ""
+              ]
             },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "pig",
+                "Animation",
+                "=",
+                "\"walk\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "pig",
+                "Animation",
+                "=",
+                "\"death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "pig",
+                "PlatformerObject",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "pig",
+                "Animation",
+                "=",
+                "\"death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "pig",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "special_go_right",
+                ""
+              ]
+            }
+          ],
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
