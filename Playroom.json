@@ -1108,8 +1108,6 @@
         "name": "lumi55.png",
         "smoothed": false,
         "userAdded": false
-<<<<<<< Updated upstream
-=======
       },
       {
         "file": "dot-removebg-preview.png",
@@ -1214,7 +1212,48 @@
         "name": "slime2.png",
         "smoothed": false,
         "userAdded": false
->>>>>>> Stashed changes
+      },
+      {
+        "file": "scary-horror-music-351315.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-music-351315.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "HowToDoBox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HowToDoBox.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "HowToDoBox-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HowToDoBox-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Instruction.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Instruction.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Instruction2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Instruction2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1306,6 +1345,44 @@
               "name": "piano"
             }
           ]
+        },
+        {
+          "name": "Impassable Objects",
+          "objects": [
+            {
+              "name": "NewSprite"
+            },
+            {
+              "name": "NewSprite3"
+            },
+            {
+              "name": "NewSprite4"
+            },
+            {
+              "name": "window"
+            },
+            {
+              "name": "tent"
+            },
+            {
+              "name": "DialogBox"
+            },
+            {
+              "name": "DialogText"
+            },
+            {
+              "name": "villain"
+            },
+            {
+              "name": "teddybear"
+            },
+            {
+              "name": "musicbox"
+            },
+            {
+              "name": "opened_music_box"
+            }
+          ]
         }
       ],
       "variables": [
@@ -1338,6 +1415,11 @@
           "name": "CorrectAttempts",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "GameState",
+          "type": "string",
+          "value": "\"HowToDoBox\""
         }
       ],
       "instances": [
@@ -1871,13 +1953,8 @@
           "opacity": 0,
           "persistentUuid": "97c72165-3c31-4d60-a97a-900bc5afd3f5",
           "width": 1286,
-<<<<<<< Updated upstream
-          "x": -6,
-          "y": 1,
-=======
-          "x": 2,
-          "y": 0,
->>>>>>> Stashed changes
+          "x": -2,
+          "y": -1,
           "zOrder": 999,
           "numberProperties": [],
           "stringProperties": [],
@@ -1920,13 +1997,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 131,
           "keepRatio": true,
           "layer": "",
           "name": "DialogBox",
           "persistentUuid": "b95b1979-469c-493c-babf-f3536b3d342d",
-          "width": 1181,
-          "x": 57,
+          "width": 1291,
+          "x": -1,
           "y": 593,
           "zOrder": 1005,
           "numberProperties": [],
@@ -2149,6 +2226,23 @@
           "x": 804,
           "y": 494,
           "zOrder": 1010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 635,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HowToDoBox",
+          "persistentUuid": "1009b635-2458-4190-ac05-f47ea7bc5f50",
+          "width": 1075,
+          "x": 83,
+          "y": 58,
+          "zOrder": 1011,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2383,10 +2477,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2456,10 +2550,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2529,10 +2623,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2602,10 +2696,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2675,10 +2769,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2748,10 +2842,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2887,10 +2981,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3020,10 +3114,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3096,14 +3190,7 @@
             }
           ],
           "effects": [],
-          "behaviors": [
-            {
-              "cost": 2,
-              "impassable": true,
-              "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -3169,14 +3256,7 @@
             }
           ],
           "effects": [],
-          "behaviors": [
-            {
-              "cost": 2,
-              "impassable": true,
-              "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -3310,10 +3390,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3383,10 +3463,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3498,10 +3578,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3625,10 +3705,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3694,10 +3774,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "string": "Text",
@@ -3742,10 +3822,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3809,10 +3889,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -3876,6 +3956,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -3886,15 +3968,29 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "rotateObject": false,
+              "useLegacyTurnBack": false,
+              "viewpoint": "TopDown"
             }
           ],
           "animations": [
             {
-              "name": "Walking towards right",
+              "name": "right",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3903,7 +3999,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi47.png",
+                      "image": "lumi 31.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3939,7 +4035,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi48.png",
+                      "image": "lumi 32.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3975,7 +4071,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi49.png",
+                      "image": "lumi 33.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4011,7 +4107,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi50.png",
+                      "image": "lumi 34.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4047,7 +4143,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi51.png",
+                      "image": "lumi 35.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4083,7 +4179,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi52.png",
+                      "image": "lumi 36.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4119,7 +4215,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi53.png",
+                      "image": "lumi 37.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4155,7 +4251,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi54.png",
+                      "image": "lumi 38.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4194,7 +4290,7 @@
               ]
             },
             {
-              "name": "Walking towards left",
+              "name": " left",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4203,7 +4299,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "chwe lumi24.png",
+                      "image": "chwe lumi23.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4239,7 +4335,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "chwe lumi25.png",
+                      "image": "chwe lumi 22.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4494,12 +4590,12 @@
               ]
             },
             {
-              "name": "Walking ahead",
+              "name": "down",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -4794,7 +4890,7 @@
               ]
             },
             {
-              "name": "Back",
+              "name": "up",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -5098,12 +5194,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lumi55.png",
+                      "image": "lumi12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5502,6 +5598,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HowToDoBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Instruction2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1674,
+                            "y": 0
+                          },
+                          {
+                            "x": 1674,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5587,6 +5743,9 @@
           },
           {
             "objectName": "monster"
+          },
+          {
+            "objectName": "HowToDoBox"
           }
         ]
       },
@@ -5604,6 +5763,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "scary-horror-music-351315.mp3",
+                "0",
+                "yes",
+                "20",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -5664,6 +5836,22 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DialogBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DialogText"
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -5680,6 +5868,15 @@
                 "Opacity",
                 "=",
                 "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "HowToDoBox",
+                ""
               ]
             },
             {
@@ -5771,6 +5968,102 @@
                 "=",
                 "\"idle\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "GameState",
+                "=",
+                "\"HowToDoBox\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "GameState",
+                "=",
+                "\"HowToDoBox\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Lumi",
+                        "TopDownMovement"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Lumi",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "HowToDoBox",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HowToDoBox"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5788,36 +6081,167 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::Not"
+                "value": "SourisSurObjet"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "CorrectItems",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "HowToDoBox",
+                "\"Left\"",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "GameState",
+                "=",
+                "\"HowToDoBox\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HowToDoBox"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
               },
               "parameters": [
                 "Lumi",
-                "Pathfinding",
-                "",
-                "MouseX()",
-                "MouseY()"
+                "TopDownMovement",
+                "0",
+                "45"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lumi",
+                "Animation",
+                "=",
+                "\"right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
+              },
+              "parameters": [
+                "Lumi",
+                "TopDownMovement",
+                "90",
+                "45"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lumi",
+                "Animation",
+                "=",
+                "\"down\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
+              },
+              "parameters": [
+                "Lumi",
+                "TopDownMovement",
+                "180",
+                "45"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lumi",
+                "Animation",
+                "=",
+                "\" left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
+              },
+              "parameters": [
+                "Lumi",
+                "TopDownMovement",
+                "270",
+                "45"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lumi",
+                "Animation",
+                "=",
+                "\"up\""
               ]
             }
           ]
@@ -5828,144 +6252,11 @@
             {
               "type": {
                 "inverted": true,
-                "value": "PathfindingBehavior::DestinationReached"
+                "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
                 "Lumi",
-                "Pathfinding"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Pathfinding",
-                    "0",
-                    "45"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Animation",
-                    "=",
-                    "\"Walking towards right\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Pathfinding",
-                    "90",
-                    "45"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Animation",
-                    "=",
-                    "\"Walking ahead\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Pathfinding",
-                    "180",
-                    "45"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Animation",
-                    "=",
-                    "\"Walking towards left\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Pathfinding",
-                    "270",
-                    "45"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Lumi",
-                    "Animation",
-                    "=",
-                    "\"Back\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PathfindingBehavior::DestinationReached"
-              },
-              "parameters": [
-                "Lumi",
-                "Pathfinding"
+                "TopDownMovement"
               ]
             }
           ],
@@ -5988,6 +6279,17 @@
           "conditions": [
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewSprite2",
+                "\"Right\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -6006,26 +6308,6 @@
                 "Step",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::Not"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Wrong Items",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
               ]
             },
             {
@@ -6154,6 +6436,17 @@
           "conditions": [
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ball",
+                "\"Right\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -6172,26 +6465,6 @@
                 "Step",
                 "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::Not"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Wrong Items",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
               ]
             },
             {
@@ -6312,6 +6585,17 @@
           "conditions": [
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "piano",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -6330,26 +6614,6 @@
                 "Step",
                 "=",
                 "2"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::Not"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Wrong Items",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
               ]
             },
             {
@@ -6470,6 +6734,17 @@
           "conditions": [
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "chair",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -6488,26 +6763,6 @@
                 "Step",
                 "=",
                 "3"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::Not"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Wrong Items",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
               ]
             },
             {
@@ -6596,20 +6851,32 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
+                "Wrong Items",
+                "\"Right\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Lumi",
                 "Wrong Items",
                 "",
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -6693,7 +6960,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Haha..Foolish mortal!You have picked the wrong item.\""
+                    "\"Haha..Foolish mortal!You have picked the wrong item.I'll repeat again..\""
                   ]
                 },
                 {
@@ -6786,7 +7053,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Hehe..You're getting closer to your doom!\""
+                    "\"Hehe..You're getting closer to your doom!One last repeat..\""
                   ]
                 },
                 {
@@ -7203,6 +7470,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
@@ -7431,25 +7702,92 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GameOver",
+          "persistentUuid": "77bcc0a7-3ea6-4b52-ae97-ee392d67e076",
+          "width": 1280,
+          "x": 1,
+          "y": -1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "GameOver",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Game.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewSprite"
+            "objectName": "GameOver"
           }
         ]
       },
