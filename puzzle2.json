@@ -12583,46 +12583,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "player",
-                "pig",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsFalling"
-              },
-              "parameters": [
-                "player",
-                "PlatformerObject"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Flash::Flash::Flash"
-              },
-              "parameters": [
-                "player",
-                "Flash",
-                "2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "DepartScene"
               },
               "parameters": [
@@ -12906,6 +12866,126 @@
                 "=",
                 "1"
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "life",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "life3",
+                "Animation",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "life2",
+                "Animation",
+                "=",
+                "2\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "life1",
+                "Animation",
+                "=",
+                "2\n"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "pig",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "player",
+                "Flash",
+                "2",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "life",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }
