@@ -2983,7 +2983,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1349189332521512,
+        "zoomFactor": 1.2959166553266448,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4043,8 +4043,8 @@
           "name": "spring",
           "persistentUuid": "bac7fd10-a461-49eb-a55c-f3fa2bf24363",
           "width": 0,
-          "x": -481,
-          "y": -1478,
+          "x": -482,
+          "y": -1488,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
