@@ -2778,6 +2778,30 @@
         "name": "pig17",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../Tiles/tile_0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\tile_0046.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Tiles/tile_0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\tile_0045.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Tiles/tile_0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\tile_0044.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2815,7 +2839,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.6896685952695119,
+        "zoomFactor": 0.6901110437033666,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2872,8 +2896,8 @@
           "name": "player",
           "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
           "width": 79,
-          "x": 46,
-          "y": 13,
+          "x": 47,
+          "y": 188,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3966,8 +3990,8 @@
           "name": "apple0",
           "persistentUuid": "9702629b-8f9b-4d4e-a7a5-aaa1927deb6e",
           "width": 0,
-          "x": 20,
-          "y": 3,
+          "x": 10,
+          "y": 106,
           "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
@@ -4081,6 +4105,54 @@
           "x": 837,
           "y": 316,
           "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "life1",
+          "persistentUuid": "dd200e94-1437-4916-b249-775aef1bf0d3",
+          "width": 0,
+          "x": 10,
+          "y": 7,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "life2",
+          "persistentUuid": "ca05d195-49a5-41f7-acda-6eaad64b8c12",
+          "width": 0,
+          "x": 30,
+          "y": 7,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "life3",
+          "persistentUuid": "a5ac6c40-fa70-46a2-b397-4400cb092273",
+          "width": 0,
+          "x": 51,
+          "y": 6,
+          "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5965,13 +6037,158 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "life1",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0046.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0045.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0044.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -10747,6 +10964,474 @@
             "tileSize": 8,
             "tilesWithHitBox": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0046.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0045.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0044.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "life2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0046.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0045.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0044.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "life3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0046.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0045.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\Tiles\\tile_0044.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10818,6 +11503,9 @@
             "objectName": "pig"
           },
           {
+            "objectName": "NewSprite6"
+          },
+          {
             "objectName": "NewSprite5"
           },
           {
@@ -10851,7 +11539,13 @@
             "objectName": "spikes"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "life1"
+          },
+          {
+            "objectName": "life2"
+          },
+          {
+            "objectName": "life3"
           },
           {
             "objectName": "ladder3"
@@ -11779,6 +12473,11 @@
               "actions": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
