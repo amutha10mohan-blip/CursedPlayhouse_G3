@@ -1108,6 +1108,113 @@
         "name": "lumi55.png",
         "smoothed": false,
         "userAdded": false
+<<<<<<< Updated upstream
+=======
+      },
+      {
+        "file": "dot-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dot-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Game.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime2.png",
+        "smoothed": false,
+        "userAdded": false
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -1122,6 +1229,11 @@
       "name": "PlayerScore",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "CurrentRiddleText",
+      "type": "string",
+      "value": "\" \""
     }
   ],
   "layouts": [
@@ -1759,8 +1871,13 @@
           "opacity": 0,
           "persistentUuid": "97c72165-3c31-4d60-a97a-900bc5afd3f5",
           "width": 1286,
+<<<<<<< Updated upstream
           "x": -6,
           "y": 1,
+=======
+          "x": 2,
+          "y": 0,
+>>>>>>> Stashed changes
           "zOrder": 999,
           "numberProperties": [],
           "stringProperties": [],
@@ -1792,7 +1909,7 @@
           "name": "DialogText",
           "persistentUuid": "f7d3c063-7a07-410e-bce1-7becab8de0aa",
           "width": 0,
-          "x": 108,
+          "x": 30,
           "y": 614,
           "zOrder": 1002,
           "numberProperties": [],
@@ -2016,6 +2133,22 @@
           "x": 160,
           "y": 429,
           "zOrder": 1009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 5,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "monster",
+          "persistentUuid": "b539918c-db25-4cf6-9b08-15c137832c20",
+          "width": 0,
+          "x": 804,
+          "y": 494,
+          "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5009,6 +5142,366 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "monster",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "talking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime 8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "slime2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 43
+                          },
+                          {
+                            "x": 126,
+                            "y": 124
+                          },
+                          {
+                            "x": 4,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5091,6 +5584,9 @@
           },
           {
             "objectName": "Lumi"
+          },
+          {
+            "objectName": "monster"
           }
         ]
       },
@@ -5150,10 +5646,29 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentRiddleText",
+                "=",
+                " \"I am in 'bee' but not in 'ant' ,I am also at the end of 'note'. Find me to begin\"\n"
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
                 "villain"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "monster",
+                ""
               ]
             },
             {
@@ -5165,6 +5680,17 @@
                 "Opacity",
                 "=",
                 "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"talking\""
               ]
             },
             {
@@ -5233,6 +5759,17 @@
                 "Text",
                 "=",
                 " \"I am in 'bee' but not in 'ant' ,I am also at the end of 'note'. Find me to begin\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"idle\""
               ]
             }
           ]
@@ -5542,6 +6079,27 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentRiddleText",
+                "=",
+                "\"I'm often played with in a park or school. What am I?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"talking\""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -5568,6 +6126,25 @@
                 "Text",
                 "=",
                 "\"I'm often played with in a park or school. What am I?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"idle\""
               ]
             }
           ]
@@ -5660,6 +6237,27 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentRiddleText",
+                "=",
+                "\"I have many teeth, but can't bite a thing. Play my keys, and I will sing.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"talking\""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -5686,6 +6284,25 @@
                 "Text",
                 "=",
                 "\"I have many teeth, but can't bite a thing. Play my keys, and I will sing.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"idle\""
               ]
             }
           ]
@@ -5778,6 +6395,27 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentRiddleText",
+                "=",
+                "\"I have a back and two arms, but no spine. I rock gently to a peaceful tune. What am I?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"talking\""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -5804,6 +6442,25 @@
                 "Text",
                 "=",
                 "\"I have a back and two arms, but no spine. I rock gently to a peaceful tune. What am I?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"idle\""
               ]
             }
           ]
@@ -5892,6 +6549,17 @@
                 "PlayerScore",
                 "+",
                 "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "monster",
+                "Animation",
+                "=",
+                "\"talking\""
               ]
             },
             {
@@ -6008,6 +6676,17 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "monster",
+                    "Animation",
+                    "=",
+                    "\"talking\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -6015,6 +6694,36 @@
                     "Text",
                     "=",
                     "\"Haha..Foolish mortal!You have picked the wrong item.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "monster",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(CurrentRiddleText)"
                   ]
                 }
               ]
@@ -6060,6 +6769,17 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "monster",
+                    "Animation",
+                    "=",
+                    "\"talking\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -6067,6 +6787,36 @@
                     "Text",
                     "=",
                     "\"Hehe..You're getting closer to your doom!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "monster",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(CurrentRiddleText)"
                   ]
                 }
               ]
