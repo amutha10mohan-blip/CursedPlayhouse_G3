@@ -12653,6 +12653,17 @@
                 "life1",
                 "Animation",
                 "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "life2",
+                "Animation",
+                "=",
                 "0"
               ]
             },
@@ -12664,7 +12675,7 @@
                 "life3",
                 "Animation",
                 "=",
-                "1"
+                "0"
               ]
             }
           ]
@@ -12889,7 +12900,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "life3",
+                "life1",
                 "Animation",
                 "=",
                 "2"
@@ -12911,7 +12922,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "life1",
+                "life3",
                 "Animation",
                 "=",
                 "2\n"
