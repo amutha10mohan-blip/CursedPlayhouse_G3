@@ -1,0 +1,7 @@
+1)Complete your ClickUp and GitHub setup.
+2)Add your confirmed Supervisor as ADMIN in your ClickUp
+3)Set up your cards/tasks - minimum 4 cards per student, each card assigned to ONE student, with deadlines spread out from Week 3 until 7. (Basically for the tasks assigned to each of you, what do you want to work on first, next, and so on.) You can adjust your card details and make more cards etc as you go - but have a clear basic planning so you have an idea whether you're keeping up with your project.
+4)Install the appropriate libraries/frameworks for your project. Get a basic program running / go through some basic tutorials online.  Get an understanding of how your library/framework works. Demonstrate to your supervisor you're getting started.
+5)Do your Market Research while finalising your scope/creating your cards in ClickUp. It's due first thing next week!
+6)Arrange a supervision time with your confirmed supervisor (once they approve your project in ProPro) for the rest of the trimester.
+Get feedback on your scope and work division from your supervisor.
