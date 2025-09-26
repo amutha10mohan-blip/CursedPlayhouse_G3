@@ -1,0 +1,63 @@
+BLOOD pixel (1).png
+BLOOD pixel (1)2.png
+BLOOD_pixel__1_-removebg-preview.png
+BLOOD_pixel__1_-removebg-preview2.png
+BLOOD_pixel__1_-removebg-preview3.png
+BLOOD_pixel__1_-removebg-preview4.png
+E pixel (2).png
+E pixel (2)2.png
+H pixel (1).png
+HAND STAIN pixel.png
+HAND STAIN pixel2.png
+HAND STAIN pixel3.png
+L pixel (3).png
+P pixel (4).png
+PIANO pixel.png
+PIANO_pixel-removebg-preview.png
+Playroom.json.autosave
+ROPE_pixel-removebg-preview.png
+TV_pixel-removebg-preview.png
+Team logo.py
+WINDOW_pixel__1_-removebg-preview.png
+assets/mapPack_tilesheet_2X.png
+ball-removebg-preview.png
+chair3-removebg-preview.png
+darkness.png
+darkness2.png
+darkness3.png
+draft for team logo
+h.png
+jumpscare-94984.mp3
+l.png
+music box.png
+note-a_dCCeX2Xr.mp3
+note-a_dCCeX2Xr2.mp3
+opened music box.png
+opened music box2.png
+opened music box3.png
+opened_music_box-removebg-preview.png
+p.png
+pixel (1).png
+pixel (2).png
+pixel (3).png
+pixel (7).png
+pixel (8).png
+pixel (8)2.png
+pixel (8)3.png
+pixel.png
+pixel__2_-removebg-preview.png
+pixel__5_-removebg-preview.png
+pixel__6_-removebg-preview.png
+pixel__7_-removebg-preview.png
+pixel__7_-removebg-preview2.png
+spooky-wizard-laugh-01-253264.mp3
+spooky-wizard-laugh-01-253265.mp3
+spooky-wizard-laugh-01-253266.mp3
+untracked.txt
+vill 1.png
+web1.png
+web2.png
+web3.png
+web4.png
+web5.png
+web6.png
