@@ -9,6 +9,7 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "antialiasingMode": "MSAA",
+<<<<<<< HEAD
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
@@ -16,6 +17,15 @@
     "pixelsRounding": true,
     "projectUuid": "3e7b1877-6da7-44c3-96fd-59a4e8c539f6",
     "scaleMode": "nearest",
+=======
+    "antialisingEnabledOnMobile": true,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "3e7b1877-6da7-44c3-96fd-59a4e8c539f6",
+    "scaleMode": "linear",
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer-pixel",
     "version": "1.0.0",
@@ -1195,6 +1205,7 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+<<<<<<< HEAD
       },
       {
         "file": "mixkit-gasping-zombie-962.mp3",
@@ -1241,6 +1252,8 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+=======
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
       }
     ],
     "resourceFolders": []
@@ -1342,11 +1355,32 @@
       ],
       "variables": [
         {
+<<<<<<< HEAD
+=======
+          "name": "a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "click",
+          "type": "number",
+          "value": 0
+        },
+        {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "name": "OncHAIR",
           "type": "number",
           "value": 0
         },
         {
+<<<<<<< HEAD
+=======
+          "name": "Counter",
+          "type": "number",
+          "value": 0
+        },
+        {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "name": "OnBook",
           "type": "number",
           "value": 0
@@ -1372,17 +1406,29 @@
           "value": 0
         },
         {
+<<<<<<< HEAD
+=======
+          "name": "OnWrong",
+          "type": "number",
+          "value": 0
+        },
+        {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "name": "RockingTime",
           "type": "number",
           "value": 0
         },
         {
+<<<<<<< HEAD
           "name": "Dollx",
           "type": "number",
           "value": 0
         },
         {
           "name": "DollY",
+=======
+          "name": "Variable",
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "type": "number",
           "value": 0
         }
@@ -1409,14 +1455,24 @@
           "angle": 269,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 194,
+=======
+          "height": 120,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "sofa4",
           "persistentUuid": "dd776029-2c18-4e3f-8ca6-89d6db29fb5b",
+<<<<<<< HEAD
           "width": 218,
           "x": 166,
           "y": 119,
+=======
+          "width": 135,
+          "x": 434,
+          "y": 237,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1424,16 +1480,27 @@
         },
         {
           "angle": 0,
+<<<<<<< HEAD
           "customSize": true,
           "depth": 1,
           "height": 772,
+=======
+          "customSize": false,
+          "height": 0,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "NewTileMap",
           "persistentUuid": "5b3ad618-ddf0-4417-9a16-721b160df367",
+<<<<<<< HEAD
           "width": 1345,
           "x": -69,
           "y": -50,
+=======
+          "width": 0,
+          "x": 402,
+          "y": 132,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [
@@ -1448,14 +1515,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 81,
+=======
+          "height": 50,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "table",
           "persistentUuid": "6eec9392-6f92-490a-aaca-a06834fc61fd",
+<<<<<<< HEAD
           "width": 76,
           "x": 326,
           "y": 262,
+=======
+          "width": 47,
+          "x": 590,
+          "y": 307,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -1465,14 +1542,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 36,
+=======
+          "height": 22,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "Rag",
           "persistentUuid": "ff152eac-b2cf-4773-9286-9bdcab9590d1",
+<<<<<<< HEAD
           "width": 107,
           "x": 435,
           "y": 637,
+=======
+          "width": 66,
+          "x": 596,
+          "y": 488,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -1482,14 +1569,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 161,
+=======
+          "height": 100,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "spider_web",
           "persistentUuid": "174012ba-12e9-43f8-a5d4-1572a33669eb",
+<<<<<<< HEAD
           "width": 157,
           "x": 2,
           "y": -50,
+=======
+          "width": 97,
+          "x": 717,
+          "y": 245,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -1499,14 +1596,24 @@
           "angle": 4,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 71,
+=======
+          "height": 44,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "flower",
           "persistentUuid": "e6bd836b-5d03-4b2c-804a-eba404b13aef",
+<<<<<<< HEAD
           "width": 55,
           "x": 342,
           "y": 202,
+=======
+          "width": 34,
+          "x": 598,
+          "y": 263,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -1516,14 +1623,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 140,
+=======
+          "height": 86,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "sofa2",
           "persistentUuid": "af303ed8-ea27-453c-bf82-5d440833c3f3",
+<<<<<<< HEAD
           "width": 198,
           "x": 280,
           "y": 48,
+=======
+          "width": 122,
+          "x": 547,
+          "y": 187,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -1533,14 +1650,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 141,
+=======
+          "height": 87,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "mirror2",
           "persistentUuid": "174c79fa-a65d-4513-8c91-00a519d61621",
+<<<<<<< HEAD
           "width": 127,
           "x": 595,
           "y": -57,
+=======
+          "width": 78,
+          "x": 702,
+          "y": 158,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1550,14 +1677,24 @@
           "angle": 89,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 180,
+=======
+          "height": 111,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "tv_cabinet",
           "persistentUuid": "ff8a43f5-263a-4db3-9f34-c910121d150e",
+<<<<<<< HEAD
           "width": 283,
           "x": 354,
           "y": 180,
+=======
+          "width": 175,
+          "x": 588,
+          "y": 255,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -1567,14 +1704,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 93,
+=======
+          "height": 57,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "spider_web",
           "persistentUuid": "cc0fa193-fc49-479e-ab64-7b2c4d70d7c9",
+<<<<<<< HEAD
           "width": 114,
           "x": 602,
           "y": -30,
+=======
+          "width": 71,
+          "x": 710,
+          "y": 173,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -1584,14 +1731,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 306,
+=======
+          "height": 222,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "door3",
           "persistentUuid": "4e7277c8-34bd-409d-b2f5-7d3c992b3c4e",
+<<<<<<< HEAD
           "width": 296,
           "x": 354,
           "y": 492,
+=======
+          "width": 231,
+          "x": 513,
+          "y": 373,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -1601,31 +1758,54 @@
           "angle": 359,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 131,
+=======
+          "height": 81,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "window",
           "persistentUuid": "3e1a4ff6-0041-4207-9b46-4845ba354b13",
+<<<<<<< HEAD
           "width": 118,
           "x": 740,
           "y": -48,
+=======
+          "width": 73,
+          "x": 793,
+          "y": 165,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
+<<<<<<< HEAD
           "angle": 1,
           "customSize": true,
           "depth": 1,
           "height": 128,
+=======
+          "angle": 358,
+          "customSize": true,
+          "depth": 1,
+          "height": 79,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "window",
           "persistentUuid": "6a303786-3ed3-4243-a7d0-07eed3d44328",
+<<<<<<< HEAD
           "width": 117,
           "x": -60,
           "y": -51,
+=======
+          "width": 72,
+          "x": 404,
+          "y": 159,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -1635,14 +1815,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 78,
+=======
+          "height": 48,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "ghost",
           "persistentUuid": "5b1a6d95-9477-4072-a957-e170fa83a869",
+<<<<<<< HEAD
           "width": 81,
           "x": 148,
           "y": 482,
+=======
+          "width": 50,
+          "x": 456,
+          "y": 149,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -1652,14 +1842,39 @@
           "angle": 356,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
+=======
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "skeleton",
+          "persistentUuid": "fde03098-39e6-4462-a2d5-261eb344c0e0",
+          "width": 118,
+          "x": 404,
+          "y": 260,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 356,
+          "customSize": true,
+          "depth": 1,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "height": 162,
           "keepRatio": true,
           "layer": "",
           "name": "rocking_chair",
           "persistentUuid": "1539d47b-0156-48dc-8924-ef5b04098697",
           "width": 266,
+<<<<<<< HEAD
           "x": 670,
           "y": 128,
+=======
+          "x": 693,
+          "y": 332,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -1669,14 +1884,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 57,
+=======
+          "height": 35,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "chest",
           "persistentUuid": "46d1bb8f-c24e-4659-861c-a5b0c4c56243",
+<<<<<<< HEAD
           "width": 90,
           "x": 254,
           "y": 422,
+=======
+          "width": 56,
+          "x": 503,
+          "y": 371,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -1686,14 +1911,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 107,
+=======
+          "height": 66,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "altar",
           "persistentUuid": "715236e1-811d-4bf2-8084-5b9600f3f1f2",
+<<<<<<< HEAD
           "width": 175,
           "x": 103,
           "y": 74,
+=======
+          "width": 108,
+          "x": 468,
+          "y": 204,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -1702,21 +1937,86 @@
         {
           "angle": 269,
           "customSize": true,
+<<<<<<< HEAD
           "depth": 4,
           "height": 128,
+=======
+          "depth": 2,
+          "height": 79,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "sofa4",
           "persistentUuid": "3d7b86be-d8e6-4d79-b2c5-7fc4df9d2ddb",
+<<<<<<< HEAD
           "width": 199,
           "x": 70,
           "y": 227,
+=======
+          "width": 123,
+          "x": 456,
+          "y": 286,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
+<<<<<<< HEAD
+=======
+          "angle": 272,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "keepRatio": true,
+          "layer": "",
+          "name": "book",
+          "persistentUuid": "fe8c594b-0f18-4fb3-abb4-116a7da8c4fc",
+          "width": 32,
+          "x": 512,
+          "y": 292,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 4,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "",
+          "name": "doll",
+          "persistentUuid": "943f31d4-121d-4c21-9221-ecbbdcda614a",
+          "width": 53,
+          "x": 727,
+          "y": 308,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "keepRatio": true,
+          "layer": "",
+          "name": "key",
+          "persistentUuid": "9dfed795-c7ca-482b-8646-91f89925775a",
+          "width": 46,
+          "x": 694,
+          "y": 365,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "angle": 0,
           "customSize": false,
           "height": 0,
@@ -1725,8 +2025,13 @@
           "name": "Count_Down_Timer",
           "persistentUuid": "17d5a869-4077-4fa4-9890-58c208f202ac",
           "width": 0,
+<<<<<<< HEAD
           "x": 95,
           "y": -55,
+=======
+          "x": 500,
+          "y": 119,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -1742,8 +2047,13 @@
           "name": "Bookshelf",
           "persistentUuid": "a5226871-93a2-45ac-81d2-a4f04243329c",
           "width": 166,
+<<<<<<< HEAD
           "x": -29,
           "y": 479,
+=======
+          "x": 362,
+          "y": 340,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
@@ -1751,20 +2061,32 @@
         },
         {
           "angle": 0,
+<<<<<<< HEAD
           "customSize": true,
           "depth": 1,
           "height": 37,
+=======
+          "customSize": false,
+          "height": 0,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "keepRatio": true,
           "layer": "",
           "name": "debug_text",
           "persistentUuid": "e4afe650-9716-429c-99a1-f01e06e192bd",
+<<<<<<< HEAD
           "width": 100,
           "x": 495,
           "y": -34,
+=======
+          "width": 0,
+          "x": 637,
+          "y": 142,
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
         },
         {
           "angle": 304,
@@ -1833,6 +2155,8 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+=======
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
         }
       ],
       "objects": [
@@ -4773,6 +5097,75 @@
           ]
         },
         {
+<<<<<<< HEAD
+=======
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "candle",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "candle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 19
+                          },
+                          {
+                            "x": 475,
+                            "y": 19
+                          },
+                          {
+                            "x": 475,
+                            "y": 475
+                          },
+                          {
+                            "x": 41,
+                            "y": 475
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "altar",
@@ -4923,6 +5316,7 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+<<<<<<< HEAD
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -4989,6 +5383,8 @@
               ]
             }
           ]
+=======
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
         }
       ],
       "objectsFolderStructure": {
@@ -5126,10 +5522,17 @@
             "objectName": "book"
           },
           {
+<<<<<<< HEAD
             "objectName": "Count_Down_Timer"
           },
           {
             "objectName": "candle"
+=======
+            "objectName": "candle"
+          },
+          {
+            "objectName": "Count_Down_Timer"
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
           }
         ]
       },
@@ -5159,7 +5562,49 @@
                 "",
                 ""
               ]
+<<<<<<< HEAD
             },
+=======
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
             {
               "type": {
                 "value": "ResetTimer"
@@ -5264,6 +5709,41 @@
                 "",
                 ""
               ]
+<<<<<<< HEAD
+=======
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "correct-6028.mp3",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "doll",
+                "rocking_chair",
+                "",
+                "",
+                ""
+              ]
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
             },
             {
               "type": {
@@ -5285,6 +5765,31 @@
           "actions": [
             {
               "type": {
+<<<<<<< HEAD
+=======
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "doll",
+                "=",
+                "rocking_chair.X()",
+                "=",
+                "rocking_chair.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "DollPlaced",
+                "True",
+                "1"
+              ]
+            },
+            {
+              "type": {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -5292,6 +5797,7 @@
                 "=",
                 "1"
               ]
+<<<<<<< HEAD
             },
             {
               "type": {
@@ -5300,6 +5806,21 @@
               "parameters": [
                 "",
                 "correct-6032.mp3",
+=======
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "doll",
+                "sofa2",
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
                 "",
                 "",
                 ""
@@ -5307,15 +5828,39 @@
             },
             {
               "type": {
+<<<<<<< HEAD
                 "value": "ChangeBlendMode"
               },
               "parameters": [
                 "doll",
                 "2"
+=======
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "OnWrong",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-gasping-zombie-963.mp3",
+                "no",
+                "",
+                ""
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
                 "value": "Wait"
               },
               "parameters": [
@@ -5337,6 +5882,15 @@
               "parameters": [
                 "doll"
               ]
+=======
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "OnWrong",
+                "=",
+                "1"
+              ]
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
             }
           ]
         },
@@ -5345,6 +5899,78 @@
           "conditions": [
             {
               "type": {
+<<<<<<< HEAD
+=======
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "rocking_chair",
+                "Tween",
+                "\"RockDown\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "rocking_chair",
+                "Tween",
+                "\"RockUp\"",
+                "rocking_chair.X()",
+                "rocking_chair.Y() -5",
+                "\"easeInOutSine\"",
+                "0.3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "rocking_chair",
+                "Tween",
+                "\"RockUp\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "rocking_chair",
+                "Tween",
+                "\"RockDown\"",
+                "rocking_chair.X()",
+                "rocking_chair.Y()+8",
+                "\"easeInOutSine\"",
+                "0.3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -5411,6 +6037,7 @@
                 "=",
                 "TimeFromStart() +5"
               ]
+<<<<<<< HEAD
             },
             {
               "type": {
@@ -5427,6 +6054,8 @@
               "parameters": [
                 "book"
               ]
+=======
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
             }
           ]
         },
@@ -5502,6 +6131,73 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+<<<<<<< HEAD
+=======
+                "candle",
+                "altar",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "OnCandle",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "candle",
+                "=",
+                "altar.X()",
+                "=",
+                "altar.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "OnCandle",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "correct-6026.mp3",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
                 "key",
                 "chest",
                 "",
@@ -5580,6 +6276,7 @@
           "conditions": [
             {
               "type": {
+<<<<<<< HEAD
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -5697,6 +6394,8 @@
           "conditions": [
             {
               "type": {
+=======
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
                 "value": "NumberVariable"
               },
               "parameters": [
@@ -6203,6 +6902,7 @@
         }
       ],
       "behaviorsSharedData": []
+<<<<<<< HEAD
     },
     {
       "b": 209,
@@ -6290,6 +6990,8 @@
         }
       ],
       "behaviorsSharedData": []
+=======
+>>>>>>> fce1932b9fbccaf4b65c3bc6414700b4f157c3f9
     }
   ],
   "externalEvents": [
