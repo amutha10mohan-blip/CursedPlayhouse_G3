@@ -1,0 +1,4238 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 239,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "3336fa5c-375e-4f54-9898-e5942435626e",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "starting-platformer-pixel",
+    "version": "1.0.0",
+    "name": "puzzle2",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Top arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
+          "name": "Top arrow button.png"
+        }
+      },
+      {
+        "file": "assets/Flat dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1db606cabd7372d1494ba5934bc25bcdd72f5a213c4a27509be57c3f4d5aecca_Flat dark joystick border.png",
+          "name": "Flat dark joystick border.png"
+        }
+      },
+      {
+        "file": "assets/Flat dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
+          "name": "Flat dark joystick thumb.png"
+        }
+      },
+      {
+        "file": "assets/PickupCoin.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":20,\\\"decay\\\":0.3,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":15,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":35,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"PickupCoin\"},\"localFilePath\":\"assets/PickupCoin.wav\"}",
+        "name": "PickupCoin",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPixelPlayer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StartingPixelPlayer.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PixelBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PixelBackground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPixelGround.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StartingPixelGround.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPixelCoin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StartingPixelCoin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilemap_packed6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap_packed6.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/ac7328a3b814f5865980f1587aa302a61904359f0744187b78916aa59d1206fe_tilemap_packed6.png",
+          "name": "tilemap_packed6.png"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/d68f78bb5b735235c210f98ef666de4d03f98579050f667217d25002b93a201d-Character2F_2_walk_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/95820ae7381ed9e05042cb3a3a580a1de2288020cb3b371d1587b222893ef230-Character2F_2_walk_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/c51e25d5bbc13fa80a4f56db9deb44c89e490061fc4217c1e1f39a1bd4d83fd0-Character2F_2_walk_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/4908aa9cffa2a2ef84bbea8c4cec37612c371783cb476ca2c04e5313b63e711f-Character2F_2_walk_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/0d710ed42a9c03bec2dec8bc8355ca3e2fcf8294004baac98ca385ca3409edf2-Character2F_2_walk_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/f1b50bfc622dacf7ed61934e78fcb262dc74e0d07f432f90d6b17417030760a0-Character2F_2_walk_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/694b5db36cc51dd417f64ca7537617c2ffd71728ea73a033ead4306ef345b266-Character2F_2_walk_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_2_walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_2_walk_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/2c3816a195d25c36957608733c05bdd0b3cb35bf7f8ec78703d443a9f1268575-Character2F_2_walk_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/0aa2adcf271694d18621f7e4a0f5b2ee063959896d30ac43663d0a990d2fbbca-Character2F_1_idle_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/13b12f4b528b1d3218a2a24eee21955ab5f0198f213b552b6937887fe1e5797d-Character2F_1_idle_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/39114a3e281f4de9681fba7624805115d3f1fd92b9adccb19b59db867ac659c9-Character2F_1_idle_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/aa83925005119ca544fd53b0357a3eb690c5ccbe082cc6a64e75242e089b4278-Character2F_1_idle_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/73a397bc82cceb8750e788b139fb36aad143cfe1a13bfd06920560186e515003-Character2F_1_idle_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/fff7b64b4f1f22a6d32479fb97e3adc97fd8dde70ec72ce0874744c14bcfc99f-Character2F_1_idle_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/ebfbeec9e05d04959556c975d1ef398b5ed43d914337f9e27ea0a863d717d208-Character2F_1_idle_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_1_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_1_idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/8b4f182ab13c393695bb728d839e86e81e180e89b643f0eda11ea53058d3842a-Character2F_1_idle_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/8844f28aca11acb4374859ab9f9cf47dd2e85deb50b131fd73129a6ef1498f18-Character2F_3_idle_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/167408a07b7529f638ea39c5b6de9b254daa0abdfb379d836003e7bc98eab0bf-Character2F_3_idle_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/2743e7d2ea65a8fc8e51eb79df2476a337b4a9a166edb6e8fafcfe50d145cf94-Character2F_3_idle_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/4211ce591e73cef57a321cb76c60d6454755b07e50adb8f0fedc768241688b2d-Character2F_3_idle_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/6bb0de11668a9389926f36d6495877c56a00a037b68fbe8421f6360e04f85476-Character2F_3_idle_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/52e2eb6562ce9e8fd833262f91430851763fb7de15df456fcf992ca252fd555a-Character2F_3_idle_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/c515fe7d84abd454de31905dd062c603b20c7569189deb1950da84b0f840d06e-Character2F_3_idle_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/58e004ac2a3f666743feda5fefc99556ea2388bee53dd3c717a0f16d780b2164-Character2F_3_idle_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/31f50fa5753abbbed25b32c05bcb8d8a10faf8e1c027fa1f7a625bccc174cb34-Character2F_3_walk_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/df8751d41b58b41fb1b86535b445d36b849a99cc5e34a4d2d25f18e30baa06e8-Character2F_3_walk_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/2877fcc7af9529799bd9f5054b4536dfe36f5734da6b5fbee18bd56d0a7b83ee-Character2F_3_walk_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/79c97c0c2f53228848272f031fce77e04218d8b98a8afdb9d951957511b46256-Character2F_3_walk_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/c8e3280fd676b644069102347ca83e11890754b8d018a4d51490c2f0e3a33d45-Character2F_3_walk_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/ed3e4975c1f7873a2db8675e04e9116ab1c632a51d9bb24448d46f82ebae7ec4-Character2F_3_walk_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/3837710a7939a3d17dc18cd58e0689045f0d8f29d9622d255ce657017535b6da-Character2F_3_walk_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_walk_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/2216ec9a9723f4c9eabc11829e6dd93db7cd294a57fa7e2b9eeb9aedb4131150-Character2F_3_walk_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_jump_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_jump_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/ebde3aeaf7a5353791e935b058374499c64c7d2969f6af2230b196d7535414ce-Character2F_3_jump_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/308a21243f8253c9582f2a426b9f8054ada4f5f851be0940afcf7f51716a48f0-Character2F_3_jump_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_fall_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_fall_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/b28f31cdecc3b274873334ca0352b5c47d89d8ec8d13b36142eab66cbb603f5f-Character2F_3_fall_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_fall_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/a424ddb06a0aa75099cb521c3573227c1eabc36ba229cfb4e3e326f51513e8d3-Character2F_3_fall_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiles.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5a70715b6ec44539428123cfb32a6f9ef99a591b8a1438fcd622aab8653609a0-Tiles.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Background_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/a5dc2443dd6777965cf70adf5d245ef4aa265b1d01dc9926046c635736f95160-Background_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/TX Tileset Ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TX Tileset Ground.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5b20d1d702f396c9754bea6bca6dd7f38c34098e90c17a895036dcbecb549756-TX Tileset Ground.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Owlet_Monster_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Owlet_Monster_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/034f53f5e23bf4ec5dc7c0d09b6506a44f0c03244b0223c8b377c7ac92c243a2-Owlet_Monster_Run_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/b964137b0972f576e5fbe9213eb41990b54ffca8d201ba6edbb5961c6619fec0-vill 3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/3b5da1608f9e326653c7605bcdd046cf9af0134f59aba9c9573e588a0f5ed7a8-vill 2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/a2cde5cc62c303db45e806f9eab2206d00fade20aa6c07c17ce217f86a58081e-vill 1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/4782c72df83773795fecad89baa5a1ff5cf01b54657f3a1584c59b829f632538-vill 33.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/46f38805bf4050e8ccc77e574db6235172eacffb5f1c68ffd4436d7fb71fe96d-vill 32.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5386510530cd69edfd66879e60116de1c6266c2053ecb4bd515fbb3b0b49e480-vill 31.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Terrain (16 x 16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Terrain (16 x 16).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/06f854980238a626cb182d6192d8c177a586cbeb34bfa8021b26dddbe76c361c-Terrain (16 x 16).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tilemap_packed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap_packed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/34a806870144bf82607a664bc4e5025790fdebb1ec4be8e3af4edb6a6a84baa0-tilemap_packed.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0097.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/e6462b0a985f95b3588ce0fe3174fe9fae12d2a22a10ba58adde2323721615a7-tile_0097.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0098.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/d7d460f6f4243f44e439e205bbd3d0fe718dcb778d9eb6c6afb227cfca115888-tile_0098.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0068.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/6574ea4c50e9c5fcbe1e91426c270d47f4f1c785439f391fcbef840a5a256cf0-tile_0068.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Bananas.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bananas.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/39aa5a3949ccd1274da43a838802db2fc11c5d70c7c9bd3788bae517e36662d4-Bananas.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Bananas.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bananas",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vill 43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/8af62d9c67d21424b5b891c47b15c8cd606dadbbf11552bb87b4676fee1160a0-vill 43.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/e012307888e56e507513c0b066547a673468414527387d37b24929ce3cdae7e2-vill 42.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vill 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/38527c78a7333f7e6f660c9adacf240f614b277c7a70c6a4eda006f9cfa39e05-vill 41.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Terrain (16x16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Terrain (16x16).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/967dd6f86368f45a9a486a15b7901a96c52fb2fe575a3a2e74a428201071ba52-Terrain (16x16).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/a7f0f201ee6cfdd852f7fc86c68a82918b6bd508768529e445804df610446721-bear 7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/d5535c7448a245c9c7afae52ec809089416feecef85894059315152d3f9b2eda-bear 8.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/812f19a6e8484f79b3b7cd835825d4c84d56056c0f9fd0025e9e2590269a9b4f-bear 6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/548f742f59123df0d0fc554ce146606c2e9633f9b5d8ffd7fa1ad52acfba0019-bear 5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/9a729e8030722136643343fab7661b488995dab4649cfd1732fda91cbc4bab41-bear 4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/535e2a57fc22a7c865f5b91f2c2abcdcd0dddf44a225bb2646830f849885740f-bear 3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/f2b3b05436ba9eae4eb8bdfacd0708e7fc37bec748635fc29b7edd3a346af710-bear 2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/bear 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bear 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/510ed10bf3a80f94829be50e797d474521f15e34126449424abdcf6aa54bc96f-bear 1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/cad7963a4479800102a6fb7b6a722fbd41d218f522add0be32090dcaa71009fa-baby mannequin 13.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/71d0a2972ba0a53ded06564cebae877c7fadac30172fbdab9a2517821a67b446-baby mannequin 12.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/3ae09b909d622a1b3c731341a262df015c51ae8975fe56e772b732d27a0f9121-baby mannequin 11.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/7629208e4b9c1b05cc744b35d6354114ad2ba93ec589cfc19542c41b95e71e3b-baby mannequin 14.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/c9607690204e3b1aa664e81742fe31d29391a32922f2228d2b6dfacb7cc49e09-baby mannequin 24.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/61f6d6e22ea23058b14fee2fc4851a80b614139754e43be40cb826b5894a43c2-baby mannequin 23.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/887e6dd32557f9a173219e64112e8bc21941fc9f3882bf6ec234f3be5535904f-baby mannequin 22.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/9c43f80d67fc2ea27fdde442122c55054bae385399bb87add27ca2bf3889c8f6-baby mannequin 21.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/c6e571a13d378b710aef0d0ba0fa2653c58c049b9911f809085eb2a78177cb92-41.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/ef6a7cc2779f36fadf58575ad11d6efb4cd41473fc75da1c8225d9227b2d049f-42.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/6e537afcebaf58bd7875143718f79a85ada40ac3f81bcf337d42cc844c1d3baf-43.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/ef6a7cc2779f36fadf58575ad11d6efb4cd41473fc75da1c8225d9227b2d049f-44.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/c1111a3fb72eac7a345882bd981b41d240499cb40e8dfb7a1fa6619483590e00-baby mannequin 34.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/724a25b6fd6460be1c04d046d4d874831350535c80e910255594f21336e2df17-baby mannequin 33.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/426208fbbdab6bea455a81d1530d45417cf87b1062f4af94fde6342ca300a343-baby mannequin 32.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/baby mannequin 31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baby mannequin 31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/ff7b92a53bac71bf14267a704196948837bae68d624910acbd6c1d5886e7dbff-baby mannequin 31.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0107.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/cc7501a7a4770495c55e35560cf454a2b0e4e2bd08dc9f00e1fca87d83fb7db9-tile_0107.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0108.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/9828f74cc517d63832b27815a0c393831f41719e6cd4ba65aff6b35ffff569ef-tile_0108.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0109.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0109.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/37f9b5ab2317fd35c7ffa6c63c0e33dd7a4b4270888d9a9a3f6370a45224407a-tile_0109.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0105.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/8a6eb8ff85d7cdafeac3337a96233f01b4c77d453beb047d161bad5d942d63c0-tile_0105.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0105.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0105.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0105.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0105.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0071.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/33311f71518ed1b500f427b0f60094d4e53adab7958936044905974f443d5a93-tile_0071.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0071.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0071.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0085.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/625b5daca705d5843be555247c1ee9ad7524c2dbeebd436916a7e4b8ce4f2950-tile_0085.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0085.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0085.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0090.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/a97466bbcbe707300742dc4676f9537b4d8bf10d431533c58ce4ec85825a5a4e-tile_0090.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0090.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0090.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0091.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/0abfe3a9f50c0f9332b4cab2347342df6c1249b35d047b453bdd4005359b2d8b-tile_0091.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0091.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0091.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0092.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/24b43aec27a6dfa1cba408cbe20fe502efe315cea6286818b0e84018eda4220a-tile_0092.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0095.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0095.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/b3398de6e92f17ed07afeb5e11b4aface0ce0d890bd30f67ff724574ab2c5b03-tile_0095.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0115.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/dc07a18a94599fd245297149474b45dfbb6536805fbda8185de480845ab4625c-tile_0115.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0115.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_0115.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0026.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/d4fd84a4e0ad7de86f9e817f505e066702969f57efd65207d5f679acc1aa431f-tile_0026.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Terrain (32x32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Terrain (32x32).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/926033716ca3404e894ccc17ef2cf0ce8056b9268a9285f7b299500e62711f89-Terrain (32x32).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tilemap_packed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap_packed2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/34a806870144bf82607a664bc4e5025790fdebb1ec4be8e3af4edb6a6a84baa0_tilemap_packed2.png",
+          "name": "tilemap_packed2.png"
+        }
+      },
+      {
+        "file": "assets/Decorations (32x32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Decorations (32x32).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/84c879cbef306ac9d1343f76e0e6934d87febe3b5f0e2d90c05f71405cdeff1e-Decorations (32x32).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0128.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/d4fe0cb84a10b303cbc15b09199221d7f6d5e3bf2686915f2495cd04d0fdfcf4-tile_0128.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0133.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0133.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/e46075064525fddec31139ba36ba60f4b6318a3e4de5caf62eff4be7ac643bca-tile_0133.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Run (34x28).png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run (34x28).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/1dd793d5275df878c5adaa9c7d644dba1f3a50b173bbabfac10a791ed40e481d-Run (34x28).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5025e6560306eccf0e2e069f4211735de5432b50dec1802506316168f8e3eb9f-Idle.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Jump (28x28).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump (28x28).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/3811fc1678a6b7c216378b522305ed53e1b8859eeb7a28aca4b12dbc3b71dd95-Jump (28x28).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/tile_0110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0108",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0109",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0110",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0111",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0112",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0113",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0114",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tile_0118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_0115",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Future Narrow.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "078f2c53113817df13b013f3ef602c397bc7ae7305b8bb97b191688940cf3bd2_Kenney Future Narrow.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/078f2c53113817df13b013f3ef602c397bc7ae7305b8bb97b191688940cf3bd2_Kenney Future Narrow.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite49",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite51",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite52",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite54",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite55",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite56",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite58",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite59",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite60",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite61",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite62",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Checkpoint (Flag Idle)(64x64).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint (Flag Idle)(64x64).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/3670d6169f3dc76e55c5b07d2b2146541ded92c84a746c2478ca3fc8208231a3-Checkpoint (Flag Idle)(64x64).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/activatedonce.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activatedonce26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activatedonce26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/activecheckpoint10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "activecheckpoint10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character2F_3_death_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/1c131410174bbcd51d8b172d1d3fd65b0a376782866a46315135afed01131807-Character2F_3_death_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/cdccdea871bc0cf988092dfd53d80221f059ea7c18dc34b9cb3ee85ec7187532-Character2F_3_death_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/80bc6096a4a8eabd743c13789784fa971f0e0e4e848c7b84a8f2e9f6eac8afd8-Character2F_3_death_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/80bc6096a4a8eabd743c13789784fa971f0e0e4e848c7b84a8f2e9f6eac8afd8-Character2F_3_death_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/fbc4d009c59e0d9cf0f3062de4bb80d4d5a5a5884cf3bc60ed5b3d61f309d5bd-Character2F_3_death_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/544a619337aa6a429d146ca73a14da003339b20c4683ba4d82c292921314d5bc-Character2F_3_death_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/f0bfe4ad073af2e34ba29c1eb0dea07204b0f8dae0b7312a6db72f14bb17200f-Character2F_3_death_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_death_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_death_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/cb42e23600d7518d993748f3c38ae136b475cea1f9df78e48ef5174555f8ee9b-Character2F_3_death_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/b1a6ebf8f4b2e8caedfd3fc1e740ac3ed2cb1a5e9426a3e1df03fd5fc51f2885-Character2F_3_climb_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/193c6d0494282d604fda01d0aa0a1044803fd44b4582f49fbb255342be1603ee-Character2F_3_climb_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/9e0dcc3ac8ca70918fcb82a8c55eee608c6529fb86ce0d9fbe71120cd493f14a-Character2F_3_climb_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/f720159dea09ffdc69225dc03c2e321bf962d6ffc11a500b350f8b6cde33b64c-Character2F_3_climb_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/3b9024d1585ef1aeacd3a31b8604a9c0e777f28fa3800428fc8d0bf812c62d32-Character2F_3_climb_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/db5413c088e74c43fa3ef7fb4eaee8651f914b7efeb762ea63bfc52b39bd01ad-Character2F_3_climb_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/0a0ca5ee9d06c256118bdd216c4808abddab28322ada3001a658a5dbc3922d48-Character2F_3_climb_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5a44e151b5420797638f357da830cf22d6d55a313cb74f8d8230665ecc33e9e1-Character2F_3_climb_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/cd70834123749930e67dc5f6a896e84d5f728b49f16ff07eb3aed35a040e95ef-Character2F_3_climb_8.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_climb_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_climb_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/7d754b62da4fd31a81364cd8fa7d6c1659895ace1b71c25e2d4736d68abcf1bb-Character2F_3_climb_9.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_punch_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_punch_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/23f5ee46807b4a25588f83bb82eb4a7e7e1fe60b0af29ed4356c8db7c3fd097c-Character2F_3_punch_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_punch_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_punch_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5a10b37786d72c60999512d77e657cda4cf1d620a63a4ad6458803ea0543e8e4-Character2F_3_punch_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_punch_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_punch_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/fb885d27c30530bf6561c407e985d288f2afc5ef9762d54ed4e4cd78aaa11154-Character2F_3_punch_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_punch_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_punch_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/e5ae7cda7b66bc58ef536353f485b4fbdd21201a0f563bfc6dab3d775adbfcf8-Character2F_3_punch_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_punch_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_punch_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/8ffb89d52091377ffbcd7a51061fcc8c418479b4f48097a82bf39f1b7038a3aa-Character2F_3_punch_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_punch_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_punch_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/379ea53b75cd98df31a292db6ca80ca4d3dbb75464051f9fc7bd5cc423eb24ee-Character2F_3_punch_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_damage_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_damage_0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/8a758fbf7bac63ec2d0b7aa90476c7b794713aa94e313a2fd303cdebe55b45ee-Character2F_3_damage_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Character2F_3_damage_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Character2F_3_damage_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/5c75b19d30053e9568ff51e4ab8a925503f4cbbce7ab7ece36888042fb8ed5e5-Character2F_3_damage_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Attack (34x28).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack (34x28).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b504023-8d66-44cc-a672-884a3fdb5af5/resources/0d40f0f542ec228bc195eddd5a093dcb4ca31cc0baa928d861473804c1686105-Attack (34x28).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/pig.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pig17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pig17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Tiles/tile_0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\tile_0046.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Tiles/tile_0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\tile_0045.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Tiles/tile_0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\tile_0044.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Fruits/Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Fruits\\Apple.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Fruits_Apple17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Fruits\\Apple17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Trampoline/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Trampoline\\Idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Trampoline/Jump (28x28).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Trampoline\\Jump (28x28).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._Trampoline_Jump (28x28)8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\Trampoline\\Jump (28x28)8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite63",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite64",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite65",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite66",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite67",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite68",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite69",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../Tiles/Menu/Buttons/Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Tiles\\Menu\\Buttons\\Close.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/DungeonTileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonTileset.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Tilemap/f469d4ca0e9db04881240e083c902868979588fa9b36e7017c19f4f111b6189c_DungeonTileset.png",
+          "name": "DungeonTileset.png"
+        }
+      },
+      {
+        "file": "../3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/close.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/close2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/close3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/close4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite70",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "choi rumin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "choi rumin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vecteezy_horror-vector-background-template-design_20033943.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_horror-vector-background-template-design_20033943.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixelated-background-with-red-shades.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixelated-background-with-red-shades.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Male Character 2_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/50a592e4243cd83da551bde433f404f19d914f8764f429764015495560e8ddb6_Male Character 2_Walking Down_1.png",
+          "name": "Male Character 2_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/344f7aaffbcd57707ae2822906b1b7518369bc65c07a36ec66bcfed7ecc7b66a_Male Character 2_Walking Down_2.png",
+          "name": "Male Character 2_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/e2ba5bec762bba80d57ff878da740a37d444bb0594c14a7a49471f2eed56d983_Male Character 2_Walking Down_3.png",
+          "name": "Male Character 2_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/da6b4d68a82cbf32e916aea7cb24f422d01098d82e12479fccd88d2338fee429_Male Character 2_Walking Left_1.png",
+          "name": "Male Character 2_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/79b13aea045d7b6e655f99705357c94e89b33ef276f90e3983d4afb0706e2d04_Male Character 2_Walking Left_2.png",
+          "name": "Male Character 2_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/8e30e4e30909fe87552f9a1f4254276b0ee13ce534fcfcbdbe6f77542b71532b_Male Character 2_Walking Left_3.png",
+          "name": "Male Character 2_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/94a5744a84025880c5df8f9288b5e77ccecd6453a033bca1e1fa220c78c71d40_Male Character 2_Walking Right_1.png",
+          "name": "Male Character 2_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/bfbcfbf7629bcdaf12f7dd3aadd70a94547f9efe2ce5155e89d76cfcce331d13_Male Character 2_Walking Right_2.png",
+          "name": "Male Character 2_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/83a4360bf0476a2c4c14dccf176e4af5abb91fe07a68ca5cbe10b8e44163ccd7_Male Character 2_Walking Right_3.png",
+          "name": "Male Character 2_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/2152ee8859e81cd10efd45715ca619f0b8492af0cd70fb68589eb3da1d3fba7d_Male Character 2_Walking Up_1.png",
+          "name": "Male Character 2_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/838df4ff9b59f1edb9afa8a058f19c342629fefa1dccc6a48878ee42f861a8d7_Male Character 2_Walking Up_2.png",
+          "name": "Male Character 2_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 2_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 2_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/4d1a96fa4d703d7275c94d512a2e61c8ec70540a5588b8f949fdace89f48436b_Male Character 2_Walking Up_3.png",
+          "name": "Male Character 2_Walking Up_3.png"
+        }
+      },
+      {
+        "file": "assets/Tablet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tablet.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Items (160 assets)/PNG/e5397eaac218e6440e404f3d7407ee6eedc59d49e15573bf7cbb9b31e3e01ea2_Tablet.png",
+          "name": "Tablet.png"
+        }
+      },
+      {
+        "file": "assets/Laptop back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Laptop back.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Items (160 assets)/PNG/12ee3235ad6d63faed428fe6035c7c03040389e2c83d008003c7fb2e91908682_Laptop back.png",
+          "name": "Laptop back.png"
+        }
+      },
+      {
+        "file": "tile_0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_0027.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "32218-390916595_small.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "32218-390916595_small.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite71",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite72",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite73",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite74",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite75",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite76",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite77",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite78",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite79",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite80",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite81",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite82",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frog.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "frog",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Skeleton enemy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton enemy.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skeleton enemy.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Skeleton enemy",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skeleton enemy2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Skeleton enemy2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skeleton enemy3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Skeleton enemy3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skeleton enemy4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Skeleton enemy4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-move-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-move-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-move-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-move-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-move-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-move-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-move-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-move-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-hurt-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-hurt-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-hurt-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-hurt-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-hurt-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-hurt-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime-hurt-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime-hurt-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Untitled.png\"}",
+        "name": "Untitled",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Untitled2.png\"}",
+        "name": "Untitled2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Untitled3.png\"}",
+        "name": "Untitled3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Untitled4.png\"}",
+        "name": "Untitled4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Untitled5.png\"}",
+        "name": "Untitled5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Untitled6.png\"}",
+        "name": "Untitled6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite83",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite84",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite85",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite86",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite87",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite88",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite89",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite90",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite91",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite92",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite93",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite94",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite95",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/death14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "death14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "10-Cannon/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10-Cannon\\Idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "10-Cannon/Shoot (44x28).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10-Cannon\\Shoot (44x28).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "10-Cannon/Cannon Ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10-Cannon\\Cannon Ball.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite96",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mario2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mario2",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "spikes",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 90,
+          "Height": 0,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 2,
+          "VerticalEdgeDuration": 1,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tile_0068.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
+                        "x": 18,
+                        "y": 9
+                      },
+                      {
+                        "x": 18,
+                        "y": 18
+                      },
+                      {
+                        "x": 0,
+                        "y": 18
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "spikes2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tile_0068.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
+                        "x": 18,
+                        "y": 9
+                      },
+                      {
+                        "x": 18,
+                        "y": 18
+                      },
+                      {
+                        "x": 0,
+                        "y": 18
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "spikes"
+      },
+      {
+        "objectName": "spikes2"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "applevariable",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/room"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/video-animation-of-lumi"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformertrajectory"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    }
+  ],
+  "externalLayouts": []
+}
