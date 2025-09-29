@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.19570539099716575,
+    "zoomFactor": 0.5292910089377082,
     "windowMask": false
   },
   "objectsGroups": [
@@ -18238,6 +18238,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slime",
+      "persistentUuid": "b77a1a74-a591-4b33-9da7-cadaf9192562",
+      "width": 0,
+      "x": 1235,
+      "y": -138,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -30017,6 +30033,17 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -30027,6 +30054,9 @@
       },
       {
         "objectName": "slime"
+      },
+      {
+        "objectName": "NewSprite5"
       },
       {
         "folderName": "Mobile Controls",
@@ -33259,7 +33289,7 @@
       "isLocked": false,
       "name": "ui",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
